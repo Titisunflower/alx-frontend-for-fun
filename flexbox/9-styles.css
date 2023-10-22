@@ -167,7 +167,7 @@
       ============================= */
   
   .container {
-    width: 960px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -346,26 +346,12 @@
       ============================= */
   
   .section-hero {
-    position: relative;
-    margin-top: -8.5rem;
-  }
-
-  .section-hero .section-body {
-    padding: 10rem 4rem;
-  }
-
-  .section-hero .section-category {
-    color: var(--color-white);
-    text-transform: uppercase;
-  }
-  
-  .hero-homepage {
     background-position: 75% 0;
     background-repeat: no-repeat;
     background-size: 90rem auto;
     background-color: #010101;
   }
-
+  
   .section-hero .section-title {
     margin-bottom: 5rem;
   }
@@ -525,36 +511,4 @@
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
-
-  /*** ARTICLE PAGE ***/
-  /* Section HERO (article)
-    ============================= */
-
-  .hero-article {
-    background-size: 150rem 100rem;
-    background-position: 50% 0;
-  }
-
-  .hero-article::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-  }
-
-  .hero-article .section-inner {
-    text-align: center;
-    align-items: center;
-    min-height: 40vh;
-  }
-
-  .hero-article .section-body {
-    position: relative;
-    padding: 7rem 0 0;
-    z-index: 2;
   }
